@@ -1,0 +1,219 @@
+body {
+    background-color: #053B50;
+    background-attachment: fixed;
+}
+
+.first-image {
+    background-color: #176B87;
+    margin: 0px;
+    padding: 0%;
+    border: 0%;
+}
+
+h1 {
+    color: white;
+    position: relative;
+    margin-left: 40%;
+    font-size: 50px;
+}
+
+.images h3{
+    color: white;
+}
+
+.head2{
+    color: #FFDBAA;
+    position: absolute;
+    top: 190px;
+    margin-left: 42%;
+    font-size: 45px;
+    background-color: #64CCC5;
+    width: 200px;
+    
+}
+
+div p{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 33px;
+    font-size: 20px;
+    width: 500px;
+}
+
+.about {
+    margin-left: 32%;
+    position: relative;
+    top: 25px;
+    width: 50%;
+}
+
+div h2 {
+    position: relative;
+    top: 70px;
+    font-size: 30px;
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    border: 5px solid #ffffff;
+    border-radius: 50px;
+    margin-left: 35%;
+}
+
+.fabrications{
+    color: white;
+    position: relative;
+    top: 80px;
+    left: 20px;
+
+}
+
+.fabrications li{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.images{
+    margin-left: 10%;
+    position: relative;
+    top: 100px;
+}
+
+.images img{
+    border: 5px solid white;
+    border-radius: 20px;    
+}
+
+.first-image a{
+    color:#053B50;
+    margin-top: 50px;
+    margin-right: 50px;
+    background-color: white;
+    border: 5px solid white;
+    border-radius: 30px;
+    float: right;
+    font-size: 20px;
+}
+
+.foot{
+    margin: 0%;
+    position: relative;
+    top: 100px;
+    background-color: white;
+    height: 250px;
+    width: 100%;
+   
+}
+
+#call{
+    font-size: 50px;
+    color: black;
+    margin-left: 30%;
+}
+
+hr{
+    width: 70%;
+
+}
+
+#rights{
+    color: black;
+    margin-left: 30%;
+}
+.products{
+    margin-top: 100px;
+    margin-left: 40%;
+}
+
+.products img{
+    width: 200px;
+    height: 200px;
+}
+
+figure{
+    width: 50%;
+    float: left;
+}
+
+figcaption{
+    position: relative;
+    left: 2%;
+    width: 40%;
+    text-align: center;
+    color: white;
+
+}
+
+@media (max-width:640px){
+    h1 {
+        color: white;
+        position: relative;
+        margin-left: 30%;
+        font-size: 50px;
+    }
+
+    .head2{
+        color: #FFDBAA;
+        position: absolute;
+        top: 220px;
+        margin-left: 34%;
+        font-size: 45px;
+        background-color: #64CCC5;
+        width: 200px;
+    }
+
+    .about p{
+        font-size: 1.5rem;
+        width: 150%;
+    }
+
+    .about {
+        margin-left: 18%;
+        position: relative;
+        top: 20px;
+    
+    }
+
+    .visit-box{
+        margin-left: -40%;
+    }
+    
+    .first-image img{
+        margin-left: 15%;
+    }
+
+    .images img{
+        width: 30%;
+    }
+
+    #call{
+        font-size: 50px;
+        color: black;
+        margin-left: -4%;
+    }
+
+    #rights{
+        color: black;
+        margin-left: 1%;
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+
+    .first-image a{
+        position: relative;
+        top: 1350px;
+        left: -25%;
+        
+    }
+
+    .fabrications{
+        color: white;
+        position: relative;
+        top: 80px;
+        margin-left: -10%;
+        width: 100%;
+        text-align: center;
+
+}

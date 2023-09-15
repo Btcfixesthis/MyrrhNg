@@ -326,3 +326,139 @@ figcaption{
 
 
 }
+
+@media (max-width:720px) and (max-height: 1640px){
+
+    body {
+        background-attachment: fixed;
+    }
+    h1 {
+        color: white;
+        position: relative;
+        left: -10%;
+        top: 10px;
+        width: 100%;
+        font-size: 55px;
+    }
+
+    .top-box {
+        background-color: #176B87;
+        height: 250px;
+        width: 150%;
+
+    }
+
+    .head2{
+        color: #FFDBAA;
+        position: relative;
+        top: -15px;
+        left: -7%;
+        font-size: 45px;
+        background-color: #64CCC5;
+    }
+
+    .about p{
+        font-size: 30px;
+        width: 110%;
+        text-align: center;
+    }
+
+    .about {
+        margin-left: 23%;
+        position: relative;
+        top: -55px;
+    
+    }
+
+    .visit-box{
+        position: absolute;
+        left: 1%;
+        top: 51%;
+      
+    }
+
+    .images {
+        position: relative;
+        top: 30px;
+    }
+    
+    .first-image img{
+        position: absolute;
+        top: 30px;
+        left: -80px;
+        width: 10px;
+
+    }
+
+   
+    #call{
+        font-size: 30px;
+        color: black;
+        margin-left: 90px;
+        margin-top: 50px;
+    }
+
+    #rights{
+        color: black;
+        margin-left: 1%;
+        position: relative;
+        top: 20px;
+        width: 100%;
+    }
+
+    hr{
+        position: relative;
+        top: 30px;
+    }
+
+    .first-image a{
+        position: absolute;
+        top: 10%;
+        left: 80%;
+    }
+
+
+    .first-image img{
+        margin-left: 10%;
+        width: 80%;
+
+    }
+
+
+    .fabrications{
+        color:rgb(255, 255, 255);
+        position: absolute;
+        top: 61%;
+        left: -1%;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+    .images{
+        position: absolute;
+        width: 80%;
+        top: 67%;
+        left: 10%;
+    }
+
+
+    .foot{
+        margin: 0%;
+        position: absolute;
+        top: 130%;
+        height: 200px;
+        width: 100%;
+       
+    }
+
+    .foot-box{
+        background-color: white;
+        height: 400px;
+        width: 200%;
+        margin-top: 170%;
+    }
+
+
+
+}
